@@ -1,7 +1,7 @@
 import React from 'react';
 import './SearchPage.css';
 import { useStateValue } from './StateProvider';
-import Response from './response';
+// import Response from './response';
 import useGoogleSearch from './useGoogleSearch';
 import { Link } from 'react-router-dom';
 import google_logo from './images/google_logo.jpg';
@@ -16,8 +16,8 @@ function SearchPage() {
 
     //mock api call
     //const data = Response;
-    console.log(term);
-    console.log(data);
+    // console.log(term);
+    // console.log(data);
 
     return (
         <div className='searchPage'>
